@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal-Verteiler – cTrader Portfolio Tool</title>
+    <meta name="description" content="Personal application for managing the owner's own trading portfolio across several accounts via the cTrader Open API.">
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #0b1120; color: #ffffff; }
+        .container { width: 90%; max-width: 950px; margin: 0 auto; padding: 70px 0; }
+        h1 { font-size: 52px; margin-bottom: 10px; }
+        h2 { margin-top: 45px; color: #38bdf8; }
+        p, li { color: #cbd5e1; font-size: 18px; line-height: 1.7; }
+        .subtitle { font-size: 22px; color: #94a3b8; }
+        .box { margin-top: 40px; padding: 30px; background: #151e31; border: 1px solid #263550; border-radius: 14px; }
+        .badge { display: inline-block; padding: 8px 14px; margin-bottom: 20px; border-radius: 30px; background: #0f2942; color: #38bdf8; font-weight: bold; }
+        footer { margin-top: 70px; padding-top: 25px; border-top: 1px solid #263550; color: #64748b; font-size: 14px; }
+        a { color: #38bdf8; }
+        @media (max-width: 600px) { h1 { font-size: 36px; } .container { padding: 40px 0; } .box { padding: 20px; } }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <span class="badge">cTrader Portfolio Tool</span>
+        <h1>Signal-Verteiler</h1>
+        <p class="subtitle">
+            Personal application for quantitative trading research, portfolio and risk management
+            across the owner's own trading accounts, with integration of the cTrader Open API.
+        </p>
+
+        <section class="box">
+            <h2>About Signal-Verteiler</h2>
+            <p>
+                Signal-Verteiler is a private application that distributes the owner's own trading
+                signals across the owner's own trading accounts. It calculates position sizes and
+                risk per account and keeps an overview of open positions and orders.
+            </p>
+            <p>
+                The application runs locally on the owner's computer and is not distributed to third
+                parties.
+            </p>
+        </section>
+
+        <section>
+            <h2>cTrader Integration</h2>
+            <p>
+                Signal-Verteiler uses the official cTrader Open API to connect cTrader accounts that the
+                account owner has explicitly authorised through the official cTrader OAuth process.
+            </p>
+            <ul>
+                <li>Account information, symbols, prices, positions and orders are read to calculate risk
+                    and to reconcile the portfolio.</li>
+                <li>Orders are only placed if the owner has granted trading permission and has enabled
+                    execution for that account. Execution can be switched off at any time.</li>
+                <li>Signal-Verteiler is not a broker, holds no client funds and gives no investment advice.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Privacy</h2>
+            <p>
+                Retrieved account data is used only for the functions of the application requested by
+                the account owner and stays on the owner's computer.
+            </p>
+            <p>
+                Credentials, API keys, client secrets and authorisation tokens are never published on
+                this website.
+            </p>
+            <p>
+                Access to a cTrader account can be revoked at any time in the cTrader account settings.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>
+                Operator: Martin Mainz<br>
+                E-mail: <a href="mailto:aktienkompasstv@gmail.com">aktienkompasstv@gmail.com</a>
+            </p>
+        </section>
+
+        <footer>Signal-Verteiler – personal trading tool</footer>
+    </main>
+</body>
+</html>
