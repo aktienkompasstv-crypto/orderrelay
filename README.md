@@ -1,6 +1,8 @@
-# OrderRelay – Portfolio Tool
+# OrderRelay – Private Portfolio Tool
 
-Personal application for quantitative trading research, portfolio and risk management across
+**Private use only.** OrderRelay is a private, single-user tool used exclusively by its owner on the owner's own trading accounts. It is not a commercial product, is not offered to anyone else and has no public sign-up or download.
+
+Private application for quantitative trading research, portfolio and risk management across
 the owner's own trading accounts, with integration of the cTrader Open API.
 
 OrderRelay distributes the owner's own trading signals across the owner's own accounts and
